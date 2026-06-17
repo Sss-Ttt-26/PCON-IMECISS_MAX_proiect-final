@@ -1,31 +1,16 @@
 # adapted from https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
-
-# put *your* name here
-name:
+name: Vaculovschi Stefan Tudor
 
 declaration: >-
   I declare that everything I have submitted in this assignment is entirely my
   own work, with the following exceptions:
 
+code: FluCoMa library
+  - comment: used for "mfcc" function to detect the envelope of the sound independent of the fundamental frequency
+    url: https://github.com/flucoma/flucoma-core
+    licence: BSD 3-Clause License
 
-# add as many "name+comment" entries as necessary
-# (or remove it altogether if you haven't collaborated with anyone)
-collaboration:
-  - name:
-    comment: >-
-      
-
-# add as many "url+licence+comment" entries as necessary
-# (or remove it altogether if you haven't used any external code)
-code:
-  - comment:
-    url:
-    licence:
-
-
-# add as many "url+licence+comment" entries as necessary
-# (or remove it altogether if you haven't used any external assets)
 assets:
-  - comment:
-    url:
-    licence:
+  - comment: Recorded phonemes (wav files) (Although these files have been trimmed to fit the purpose of this project)
+    url: is no longer valid
+    licence: ?
