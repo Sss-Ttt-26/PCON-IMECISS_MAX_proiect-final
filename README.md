@@ -21,6 +21,7 @@ Pentru a adapta vocalele la vocea utilizatorului, se procedeaza in felul urmator
 3: Se pronunță vocala în micorfon și se da comanda de incepere a înregistarii ("start recording") in wekinator
 4: Dupa un număr rezonabil (de ex. 70) de date înregistrate, se opreste inregistrarea
 5: Se repeta pasul 1 pentru fiecare vocală suportata (in total, de 7 ori)
+6. Se apasa pe ‘train’ pentru a intrena reteaua
 
 Pentru a consoanele la vocea utilizatorului, se procedeaza in felul urmator:
 1: Se seteaza toate ieșirile ale proiectului "WekinatorProjectVocale" la 0
@@ -45,6 +46,7 @@ Pentru a consoanele la vocea utilizatorului, se procedeaza in felul urmator:
 3: Se dă comanda de începere a înregistarii ("start recording") în wekinator și se pronunță consoana in micorfon
 4: Imediat se opreste înregistrarea (în special pentru consoanele surde) (pentru a nu inregistra zgomotul)
 5: Se repeta pasul 1 pentru fiecare consoană suportată (in total, de 17 ori)
+6. Se apasa pe ‘train’ pentru a intrena reteaua
 
 ## (Utilizare)
 Butonul ADC pornește intrarea, cât si ieșirea audio pentru acest patch.
