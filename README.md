@@ -1,5 +1,8 @@
-# (Titlul)
-(Scurtă descriere.)
+# Voice changer
+Acest proiect genereaza un semnal vocal (sintetizat) pe baza semnalului vocal captat la intrare pe baza fonemelor. 
+Proiectul contine un set de foneme inregistrate (care pot fi inlocuite) pe baza carora se genereaza vocea artificiala.
+Pentru a detecta fonemele captate, se folosec algoritmi de clasificare bazati pe retele neuronale, ce trebuie adaptati pentru vocea persoanei, cat si raspunsul microfonului.
+Pentru un rezultat eficient, se recomanda ca dispozitivul de captare sa fie izolat de dispozitivul de reproducere a sunetului, cat si de surse de zgomot externe.
 
 ## (Instalare)
 ...
@@ -9,50 +12,11 @@
 
 ## (Istoric)
 
-(13.05) ...
+(28.05) Prima varianta care putea reproduce doar 5 vocale dupa un algoritm de clasificare bazat pe retele neuronale. Avea dezavantajul ca 
 
-(3.06) ...
-
-(X.06) ...
+(02.06) Varianta modificata care reproduca vocalele dupa un algoritm continuu ce returna probabilitatea a fiecareia dintre vocale bazat pe retele neuronale 
 
 ## (Link-uri)
-...
 
 # Dezvoltarea proiectului
-
-Pentru început:
-
-1. Creează-ți cont pe Github
-2. Download și install [Github Desktop](https://desktop.github.com/)
-3. Citește [acest ghid](https://charlesmartin.com.au/blog/2020/08/09/student-project-repository) și ține la îndemână [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet).
-
-Apoi, procesul este următorul (inspirat de [aici](https://cs.anu.edu.au/courses/comp1720/deliverables/05-major-project/#submission-process)):
-
-1. *fork* al acestui template către propriul tău cont de Github
-
-![](assets/fork.gif)
-
-_(dacă preferi cumva ca repo-ul să nu fie vizibil de către public, îl poți seta ca Private din Settings - "Change visibility". Atunci trebuie să mă adaugi drept colaborator, ca eu să am acces.)_
-
-2. *clone* al repo-ului din Github Desktop pentru a-l downloada local
-
-![](assets/clone.gif)
-
-3. *commit* și *push* pe măsură ce lucrezi la proiect. Ultima versiune push-ată pe server înainte de deadline va conta pentru evaluare.
-
-![](assets/commit.gif)
-
-## Elemente obligatorii
-
-1. Acest readme completat. Titlu, descriere, mod de utilizare, istoric, link-uri utile.
-
-   Poți include și imagini și chiar [gif-uri animate](https://www.screentogif.com/), sau link-uri către materiale audio/video.
-   
-   Vezi [aici](https://charlesmartin.com.au/blog/2020/08/09/student-project-repository) mai multe sugestii.
-
-2. [Declarația de originalitate](statement-of-originality.yml) completată. Tot ce nu este inclus acolo va fi considerat 100% contribuție proprie.
-
-    *(formatul este adaptat de [aici](https://gitlab.cecs.anu.edu.au/comp1720/2018/comp1720-2018-major-project/-/blob/master/statement-of-originality.yml). Da, este un pic ironic să refolosim un doc [de altundeva](https://cs.anu.edu.au/courses/comp1720/resources/faq/#how-do-i-fill-out-my-statement-of-originality), dar menționăm sursa deci nu este plagiat!)*
-
-3. Proiectul în sine. Tot codul trebuie să fie prezent, proiectul trebuie să poată rula conform instrucțiunilor din readme. Dacă e nevoie de asset-uri mari (sunete, video etc), [folosește Git LFS](https://git-lfs.github.com/) sau include link de download în instrucțiunile de instalare.
 
